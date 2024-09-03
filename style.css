@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black
+}
+.navbar-left {
+    padding-left: 30px;
+    height: 12px;
+}
+.navbar-right {
+    padding-right: 20px;
+    margin: 30px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.a-element {
+    padding: 10px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 85vh;
+}
+.home-left {
+    width: 50vw;
+    text-align: right;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+.logo-im {
+    height: 55px;
+}
+.logo-io {
+    height: 300px;
+}
+.home-right {
+    width: 50vw;
+    padding-left: 400;
+}
+.home-h1 {
+    font-family: "New Amsterdam", sans-serif;
+}
+.home-p {
+    font-family: "M PLUS Code Latin", monospace;
+}
+.services {
+    padding: 50px;
+    text-align: center;
+}
+.services-heading {
+    font-family: "Baskervville SC", serif;
+    color: rgb(99, 224, 99);
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+.services-sub-cont {
+    display: flex;
+    flex-direction: row;
+    
+}
+.services-card {
+    border: 2px solid rgb(44, 143, 44);
+    margin: 20px;
+    width: 400px;
+}
+.sc-h1 {
+    font-family: "Oswald", sans-serif;
+    size: 20px;
+}
+.sc-p {
+    font-family: "Caveat", cursive;
+}
+.contact {
+    text-align: center;
+}
+.contact-info {
+    font-family: "M PLUS Code Latin", monospace;
+}
+.social-media-icon {
+    height: 50px;
+    padding: 40px;
+}
+.testimonial-logo {
+    height: 10px;
+}
+.testimonial-logo-fb {
+    height: 200px;
+}
